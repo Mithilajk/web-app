@@ -1,7 +1,4 @@
-services:
-  - type: web
-    name: household-expense-predictor
-    env: python
-    plan: free
-    buildCommand: ""
-    startCommand: gunicorn app:app
+Flask
+numpy
+scikit-learn
+gunicorn
